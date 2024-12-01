@@ -1,0 +1,25 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-content {
+  display: flex;
+  flex: 1;
+}
+
+.layout-sidebar {
+  width: 10%; /* 화면의 20% 너비 */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.layout-main {
+  flex: 1; /* 나머지 80% 영역 */
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
